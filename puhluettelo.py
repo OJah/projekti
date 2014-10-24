@@ -13,6 +13,7 @@ def tulostaluettelo(lista):
 
 #Tässä kohtaa näyttäisi olevan jokin virhe!?!?!    
 def lisaahlo(lista):
+    henkilo = hlo()
     henkilo.etunimi = input("Anna lisättävä etunimi: ")
     henkilo.sukunimi = input("Anna lisättävä sukunimi: ")
     henkilo.puhelin = input("Anna lisättävä puhelinnumero: ")
@@ -31,6 +32,7 @@ def poistahlo(lista):
             print(henkilo.etunimi, henkilo.sukunimi, henkilo.puhelin, "tuhotaan.")
             del lista[i]
             break
+	
     print()
     return lista
  
