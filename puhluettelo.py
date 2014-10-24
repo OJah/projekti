@@ -10,7 +10,8 @@ def tulostaluettelo(lista):
         henkilo = lista[i]
         print(henkilo.etunimi, henkilo.sukunimi, henkilo.puhelin)
     print()
-    
+
+#Tässä kohtaa näyttäisi olevan jokin virhe!?!?!    
 def lisaahlo(lista):
     henkilo.etunimi = input("Anna lisättävä etunimi: ")
     henkilo.sukunimi = input("Anna lisättävä sukunimi: ")
@@ -18,7 +19,8 @@ def lisaahlo(lista):
     lista.append(henkilo)
     print()
     return lista
- 
+
+#Tähän funktioon voisi lisätä viestin käyttäjälle, jos poistettavaa henkilöä ei löydy 
 def poistahlo(lista):
     henkilo = hlo()
     etunimi = input("Anna poistettavan etunimi: ")
